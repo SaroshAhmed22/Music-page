@@ -5,6 +5,12 @@
     border-radius: 7px;
     /* padding: 10px; */
 }
+.nav-1{
+    color: black !important;
+    background-color: white;
+    border-radius: 7px;
+
+}
 
 .navbar-nav li{
     padding: 10px;
