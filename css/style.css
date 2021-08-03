@@ -201,85 +201,12 @@ font-size: 26px;
 
 /*! Misic player start */
 
-.music-section{
-  background-color: black !important;
-}
-
-.controls {
-  display: flex;
-  align-items: center;
-  /* font-size: 0.8em; */
-  justify-content: space-between;
-  /* color: black !important; */
-  /* background-color: black; */
-}
-.controls .play, .controls .pause {
-  /* margin: 15px 25px; */
-  /* color: #6e946c; */
-  /* font-size: 30px !important; */
-  color:white;
-  
-}
-.controls .option {
-  /* left: 10px;
-  position: absolute; */
-  
-}
-
-.fa-chevron-left,.fa-chevron-right,.fa-backward,.fa-forward,.fa-plus,.fa-random,.fa-play ,.fa-volume-up {
-  font-size: 30px !important;
-  
-}
-
-.fa-backward,.fa-forward,.fa-plus,.fa-random,.fa-play ,.fa-volume-up {
-  
-  /* text-shadow: 0 0 3px white !important; */
-  -webkit-text-fill-color: black;
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: white;
-}
-.controls .add {
-  /* right: 0px; */
-  /* position: absolute; */
-  
-}
-/* .controls .volume {
-  margin-right: 30px;
-  font-size: 30px;
-
-} */
-.controls .shuffle {
-  /* margin-left: 30px; */
-  /* font-size: 30px !important; */
-}
-
-.play, .pause, .next, .previous, .option, .add, .volume, .shuffle {
-  transition: all 0.5s ease;
-}
-.play:hover, .pause:hover, .next:hover, .previous:hover, .option:hover, .add:hover, .volume:hover, .shuffle:hover {
-  color: #557c5f;
-}
-
-.add,.option{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: rgb(188, 198, 216);
-}
-
-.play{
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  border: 1px solid white;
-}
-
-
-
-
-
 
 /*! Misic player end */
+/* ! slider for search start  */
+
+
+/* ! slider for search end  */
 /* Slick Slider Css */
 
 .slick-slider {
