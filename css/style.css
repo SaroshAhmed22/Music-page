@@ -5,7 +5,11 @@
   opacity: 0.9;
   /* opacity: 0.9; */
 }
-
+.next-prev-div{
+  border: 1px solid  gray;
+  width: 30px;
+/* padding: 10px; */
+}
 .slider2-card-img img{
   border: 12px solid white;
 }
