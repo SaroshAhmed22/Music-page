@@ -1,3 +1,24 @@
+.cardxa{
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  opacity: 0.9;
+}
+
+.slider2-card-img img{
+  border: 12px solid white;
+}
+.slider2-card-over{
+  opacity: 0.99 !important;
+  margin-top: -20%;
+  margin-left: 46%;
+ background-color: rgb(16,23,38);
+ width: 53%;
+ height: 130px !important;
+ border: 10px solid white !important;
+
+}
+
 .navbar-nav li a:hover{
     /* border: 2px solid red; */
     background-color: white;
@@ -562,14 +583,7 @@ font-size: 26px;
   font-size: 14px;
 } */
 
-.cardxa{
-  position: absolute;
-  top: 40%;
-  left: 46%;
-  opacity: 0.9;
-  
 
-}
 .overlaya {
   z-index: 10 !important;
    margin-top: 20%;
