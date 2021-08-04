@@ -201,7 +201,6 @@ font-size: 26px;
 
 /*! Misic player start */
 
-
 /*! Misic player end */
 /* ! slider for search start  */
 
@@ -210,8 +209,9 @@ font-size: 26px;
 /* Slick Slider Css */
 
 .slick-slider {
+
     position: relative;
-    display: block;
+    /* display: block; */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -223,6 +223,8 @@ font-size: 26px;
   }
   
   .slick-list {
+    /* border: 2px solid red; */
+
     position: relative;
     display: block;
     overflow: hidden;
@@ -244,6 +246,8 @@ font-size: 26px;
   }
   
   .slick-track {
+    /* border: 2px solid red; */
+
     position: relative;
     top: 0;
     left: 0;
@@ -268,7 +272,9 @@ font-size: 26px;
     display: none;
     float: left;
     height: 100%;
-    min-height: 1px
+    min-height: 1px;
+    /* border: 2px solid red; */
+
   }
   
   .slick-slide.dragging img {
@@ -276,7 +282,7 @@ font-size: 26px;
   }
   
   .slick-initialized .slick-slide {
-    display: block
+    display: block;
   }
   
   .slick-loading .slick-slide {
@@ -284,18 +290,22 @@ font-size: 26px;
   }
   
   .slick-vertical .slick-slide {
+    /* border: 2px solid red; */
+
     display: block;
     height: auto;
     border: 1px solid transparent
   }
   
   .img-fill {
+    /* border: 2px solid red; */
     width: 100%;
-    display: block;
+    display: inline-block;
     overflow: hidden;
     position: relative;
-    text-align: center
-  }
+    text-align: center;
+    height: 350px !important;
+ }
   
   .img-fill img {
     height: 100%;
@@ -318,6 +328,8 @@ font-size: 26px;
   }
   
   .Container .Head {
+    /* border: 2px solid red; */
+
     font: 20px/50px NeoSansR;
     color: #222;
     height: 52px;
@@ -333,6 +345,7 @@ font-size: 26px;
   .Container .Head .Slick-Prev {
     display: inline-block;
     width: 38px;
+    /* border: 2px solid red; */
     height: 38px;
     margin-top: 6px;
     background: #2b2b2b;
@@ -367,7 +380,7 @@ font-size: 26px;
   }
   
   .ProductBlock .img-fill {
-    height: 200px;
+    height: 230px;
   }
   
   .ProductBlock h3 {
@@ -378,14 +391,7 @@ font-size: 26px;
     border: 1px solid rgba(0, 0, 0, .25);
   }
   
-  *,
-  *:before,
-  *:after {
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
-  }
+  /* ! 2nd end */
   
 .circle {
     width: 170px;
@@ -393,13 +399,20 @@ font-size: 26px;
     background:rgb(228, 130, 1);
     border-radius: 50%
   }
+.circle-menu{
+  margin-left: 9%;
+}
 
+.gfm{
+  padding-left: 8%;
+}
   .featured-menu{
     /* width: 100% !important; */
       background-color:rgb(38, 38,38);
       border-radius: 290px 0 0 290px;
       /* width: 100%; */
       /* border: 1px solid red; */
+      /* margin-left: 3%; */
   }
 
 
@@ -606,7 +619,7 @@ font-size: 26px;
      background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 501px;
+    height: 531px;
     
 }
 
