@@ -1,0 +1,56 @@
+/* for mobile screen */
+@media screen and (max-width: 600px) {
+    .navbar-collapse{
+        margin-left: 0px !important;
+    }
+ .first-heading{
+          font-size: 25px;
+      }
+ .wwheading{
+          font-size: 20px;
+      }
+      .circle {
+        width: 110px;
+        height:110px;
+    }
+    .gfm{
+      font-size: 23px;
+      text-align: center;
+    }
+
+    .featured-menu{
+     
+        background-color:rgb(38, 38,38);
+        border-radius: 0px 0 0 0px;
+    }
+
+    .circle-menu{
+      /* border: 1px solid red; */
+      margin-left: 4% !important;
+     
+    }
+  
+
+    .circle-top{
+      margin-top: 10px;
+    }
+    
+    .gfm{
+      padding-left: 0;
+    }
+
+    .footer-p{
+      text-align: center !important;
+      /* border: 2px solid; */
+    }
+    .slider-r1{
+      /* top:  85% !; */
+      text-align: center;
+      /* border: 1px solid red; */
+      /* margin-bottom: 200px; */
+      margin-top: -40px;
+
+    }
+
+  
+  }
