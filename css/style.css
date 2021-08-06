@@ -1,3 +1,8 @@
+.wws{
+  /* height: 100vh; */
+  /* position: relative; */
+}
+
 .cardxa{
   position: absolute;
   top: 40%;
@@ -436,6 +441,8 @@ font-size: 26px;
 .circle-menu{
   margin-left: 9%;
 }
+
+
 
 .gfm{
   padding-left: 12%;
