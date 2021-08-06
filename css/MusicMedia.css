@@ -10,8 +10,8 @@
           font-size: 20px;
       }
       .circle {
-        width: 130px;
-        height:130px;
+        width: 140px;
+        height:140px;
     }
     .gfm{
       font-size: 23px;
@@ -35,6 +35,7 @@
 /* margin-right: 100px; */
 /* margin-left: -100px !important; */
 margin-left: -6%;
+/* column-gap: -140px !important; */
 
 
     }
