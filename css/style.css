@@ -1,7 +1,111 @@
-.wws{
-  /* height: 100vh; */
-  /* position: relative; */
+/* .world-wide-search-vh{
+  height: 100vh !important;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.featured-menu {
+  height: 80vh;
+} */
+
+.world-wide-vh, .brand-vh{
+  /* height: 100vh !important; */
+  /* background-color: black; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/*! nav hovering start*/
+
+.navbar-nav li a,
+.navbar-nav li a:after,
+.navbar-nav li a:before ,.nav-1{
+  transition: all .5s;
+}
+
+
+.navbar-nav li a {
+  display: block;
+  
+}
+
+.navbar-nav li a ,.nav-1{
+  position: relative;
+}
+
+
+.navbar-nav li a:after  {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent !important;
+  background: #aaa !important;
+  height: 1px;
+}
+
+
+
+.navbar-nav li a:hover:after ,.nav-1  {
+  width: 100%;
+}
+
+.navbar-nav li a ,.nav-1 {
+  transition: all 2s;
+}
+
+navbar-nav li a:after   {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+
+
+.navbar-nav li a:hover , .nav-1 {
+  color: #fff;
+  z-index: 1;
+}
+.navbar-nav li a:hover:after ,.nav-1 {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+
+
+
+/*! nav hovering end */
+
+
+
+
+
+
+/* .navbar-nav li a:hover{
+   
+  background-color: white;
+  color: black !important;
+  border-radius: 7px;
+  
+} */
+.nav-1{
+ border-bottom: 1px solid white;
+}
+
+
+
+
 .mynavbar.scrolled {
   background-color: black !important;
   /* transition: background-color 200ms linear; */
@@ -37,20 +141,20 @@
  border: 10px solid white !important;
 
 }
-
+/* 
 .navbar-nav li a:hover{
-    /* border: 2px solid red; */
+   
     background-color: white;
     color: black !important;
     border-radius: 7px;
-    /* padding: 10px; */
+    
 }
 .nav-1{
     color: black !important;
     background-color: white;
     border-radius: 7px;
 
-}
+} */
 
 .navbar-nav li{
     padding: 10px;
