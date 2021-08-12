@@ -1,5 +1,7 @@
 /*! animated featured card start */
-
+body{
+  overflow-x: hidden;
+}
 
 .featured-sectionn{
   padding: 100px 0px;
