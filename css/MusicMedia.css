@@ -5,6 +5,15 @@
     .navbar-collapse{
         margin-left: 0px !important;
     }
+
+    .slider2-card-over{
+     border: 8px solid white !important;
+     }
+     .fa-thumbs-up p , .fa-comment p ,.fa-eye p {
+       font-size: 10px;
+     }
+
+
  .first-heading{
           font-size: 25px;
       }
@@ -87,9 +96,7 @@ margin-left: -6%;
       margin-top: -40px;
 
     }
-
-  
-  }
+ }
 
 
 
@@ -97,5 +104,9 @@ margin-left: -6%;
     .cd3{
       margin-top: 25px !important;
   
+    }
+
+    .item-box h3 {
+      font-size: 16px;
     }
   }

@@ -1,4 +1,10 @@
 /*! animated featured card start */
+
+
+.featured-sectionn{
+  padding: 100px 0px;
+}
+
 .single-item{
   /* align-self: stretch;
     justify-self: stretch;
