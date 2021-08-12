@@ -1,6 +1,6 @@
 /*! animated featured card start */
 body{
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .featured-sectionn{
