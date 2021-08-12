@@ -1,3 +1,5 @@
+
+
 /* for mobile screen */
 @media screen and (max-width: 600px) {
     .navbar-collapse{
@@ -87,4 +89,13 @@ margin-left: -6%;
     }
 
   
+  }
+
+
+
+  @media screen and (max-width: 694px) {
+    .cd3{
+      margin-top: 25px !important;
+  
+    }
   }

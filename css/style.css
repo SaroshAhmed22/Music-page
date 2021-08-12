@@ -1,7 +1,14 @@
 /*! animated featured card start */
 .single-item{
-  width: 100%;
-  height: auto;
+  /* align-self: stretch;
+    justify-self: stretch;
+    display: flex;
+    justify-content: space-between; */
+    
+}
+
+.item-box {
+  
 }
 
 .services-area {
