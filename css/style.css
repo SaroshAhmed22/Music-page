@@ -1,5 +1,128 @@
+/*! animated featured card start */
+.single-item{
+  width: 100%;
+  height: auto;
+}
+
+.services-area {
+  /* background: #25272a; */
+  /* padding: 100px 0;
+  min-height: 100vh;
+  width: 100%; */
+  /* float: left; */
+}
+
+.wrapper {
+  /* max-width: 1170px;
+  margin: auto; */
+}
+
+/* .section-header h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #ddd;
+  margin: 0;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+} */
+
+/* .items {
+  float: left;
+  width: 100%;
+} */
+
+/* .single-item {
+  width: 33.33%;
+  float: left;
+  padding: 15px;
+} */
+/* @media (max-width: 767px) {
+  .single-item {
+    width: 100%;
+  }
+} */
+
+.item-box {
+  /* padding: 30px; */
+  padding: 15px 0px;
+  text-align: center;
+  position: relative;
+  background: #34393e;
+}
+
+.item-box:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  width: 0;
+  box-sizing: border-box;
+  height: 0;
+  border-bottom: 3px solid transparent;
+  border-left: 3px solid transparent;
+  transition: all .8s ease;
+}
+
+.item-box:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 0;
+  box-sizing: border-box;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-right: 3px solid transparent;
+  transition: all .8s ease;
+}
+
+.single-item:hover .item-box:after,
+.single-item:hover .item-box:before {
+  border-color: deepskyblue;
+  width: 100%;
+  height: 100%;
+}
+
+.icon-area {
+  font-size: 50px;
+  color: #fff;
+  transition: color .8s ease;
+}
+
+.single-item:hover .item-box .icon-area {
+  color: deepskyblue;
+}
+
+.item-box h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.item-box p {
+  font-size: 15px;
+  color: #ddd;
+  line-height: 23px;
+}
+
+@media (max-width: 767px) {
+  .single-item {
+    width: 100%;
+  }
+}
+/*! animated featured card end */
 
 
+
+
+.mynavbar{
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: 9999 !important; 
+
+}
 
 
 
@@ -319,7 +442,7 @@ color: white !important;
 /* ! top section start*/
 .top-section{
   background-image: url('../img/Music/music1.jpg') !important;
-  height: 100vh;
+  height: 100vh !important;
   position: relative !important ;
   
 }
@@ -539,7 +662,7 @@ font-size: 26px;
   }
   
   .ProductBlock .img-fill {
-    height: 230px;
+    height: 100%;
   }
   
   .ProductBlock h3 {

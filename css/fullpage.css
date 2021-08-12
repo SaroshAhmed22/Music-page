@@ -259,3 +259,6 @@ article {
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
+  /* body {
+    overflow: hidden; 
+  } */
