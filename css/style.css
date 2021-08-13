@@ -4,6 +4,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+.advertise-heading{
+  padding-top: 85px;
+    padding-bottom: 85px !important;
+}
+
+.brand-img{
+  height: 330px;
+  width: 540px;
+}
+
 .first-heading-line1{
   width: 170px;
   height: 10px;
@@ -17,8 +27,8 @@
 
 
 .wwheading{
- padding-top:110px ;
- padding-bottom:110px !important ;
+ padding-top:85px ;
+ padding-bottom:85px !important ;
 }
 
 
@@ -927,7 +937,15 @@ font-size: 26px;
 
 .brand{
   background-color:black;
+  padding-top: 110px;
+    padding-bottom: 110px !important;
 }
+
+.brand-r2{}
+
+.brand-overlay{
+  background-image: linear-gradient(rgb(0 0 0), rgb(0 0 0 / 71%)) !important;
+  }
 
 
 .world-wide-section{
@@ -936,6 +954,7 @@ font-size: 26px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 531px;
+  
     /* filter: blur(3px) !important; */
     
 }

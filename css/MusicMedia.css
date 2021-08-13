@@ -2,8 +2,29 @@
 
 /* for mobile screen */
 @media screen and (max-width: 600px) {
+  
+
+  .nav-bt1{
+    font-weight: bold;
+    font-size: 10px;
+  }
+
   .slider2-card-img img{
     border: 7px solid white;
+  }
+  .lastcard-ul {
+    margin-left: -12px !important;
+  }
+
+  .brand-r2{
+    margin-top: 100px;
+  }
+  .bi3 {
+    margin-top: 20px;
+  }
+
+  .top-sec-controls{
+    display: none !important;
   }
 
 
@@ -36,7 +57,7 @@
 
 .slider-r1{
   text-align: left !important;
- top: 80% !important;
+ top: 95% !important;
 
 }
 .slider-r2{
@@ -71,7 +92,7 @@
 
 
  .first-heading{
-          font-size: 25px;
+          font-size: 20px;
       }
  .wwheading{
           font-size: 20px;
