@@ -2,6 +2,36 @@
 
 /* for mobile screen */
 @media screen and (max-width: 600px) {
+
+  /* .top-section{
+    margin-top: 100px;
+  } */
+
+
+.slider-r1{
+  text-align: left !important;
+ top: 80% !important;
+
+}
+.slider-r2{
+  display: none;
+}
+
+.first-heading-line1{
+  width: 85px;
+  height: 8px;
+  background-color: white;
+}
+.first-heading-line2{
+  width: 65px;
+  height: 3px;
+  background-color: white;
+}
+
+
+
+
+
     .navbar-collapse{
         margin-left: 0px !important;
     }

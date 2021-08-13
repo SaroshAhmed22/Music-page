@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+.first-heading-line1{
+  width: 170px;
+  height: 10px;
+  background-color: white;
+}
+.first-heading-line2{
+  width: 130px;
+  height: 5px;
+  background-color: white;
+}
+
+
 .wwheading{
  padding-top:110px ;
  padding-bottom:110px !important ;
@@ -323,13 +335,8 @@ navbar-nav li a:after   {
 }
 .slider-r1{
   position: relative;
-  /* margin-top: 120px; */
-  top: 40% !important;
-  /* margin: 0 auto; */
-  /* position: absolute; */
-  /* top:  15% !important; */
-  /* border: 2px solid; */
-  /* margin-top: 10px; */
+ top: 30% !important;
+  
 }
 
 .overlay-images{
@@ -471,8 +478,8 @@ color: white !important;
 }
 /* ! top section start*/
 .top-section{
-  background-image: url('../img/Music/music1.jpg') !important;
-  height: 100vh !important;
+  /* background-image: url('../img/Music/music1.jpg') !important; */
+  /* height: 100vh !important; */
   position: relative !important ;
   
 }
