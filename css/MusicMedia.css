@@ -2,11 +2,37 @@
 
 /* for mobile screen */
 @media screen and (max-width: 600px) {
+  .slider2-card-img img{
+    border: 7px solid white;
+  }
+
+
+  .slider2-card-over{
+    opacity: 0.99 !important;
+    margin-top: -20%;
+    margin-left: 46%;
+     height: 113px !important;
+   border:7px solid white !important;
+  
+  }
 
   /* .top-section{
     margin-top: 100px;
   } */
 
+.slider2-card-over h6{
+  font-size: 14px;
+  margin-top: 10px !important;
+}
+
+
+  .slider2-card-img img{
+    width: 250px !important;
+    height: 250px !important;
+ }
+
+
+ 
 
 .slider-r1{
   text-align: left !important;
