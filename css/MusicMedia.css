@@ -1,6 +1,5 @@
-
-
 /* for mobile screen */
+
 @media screen and (max-width: 600px) {
   footer .row .col-md-3{
     text-align: left !important;

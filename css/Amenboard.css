@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.amenbd-img > img{
+    height: 60vh;
+    width: 100%;
+    
+}
+.amenbd-img{
+    position: relative;
+
+}
+
+.amenbd-main-div{
+   
+
+}
+
+.amenbd-heading{
+  position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+/* ! cards start */
+.profile-body{
+    margin: 0px;
+    }
+    
+    .profile {
+    margin-top: -45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+  background: #34393e;
+    
+    /* padding: 20px; */
+    z-index: 0;
+    }
+    
+    .socialmedia {
+        text-align: center;
+    }
+    
+    .photo {
+        margin: 25px;
+    
+    }
+    
+    .image--cover {
+        width: 120px;
+        height: 120px;
+        border: #fff 3px solid;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: -40px;    
+    }
+    
+    .username,
+    .profession,
+    .locationname,
+    .descricao {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        padding: 0;
+        margin: 1px;
+    }
+    
+    .username {
+     
+        font-size: 20pt;
+        margin: 2px
+    }
+    
+    .profession {
+        font-size: 14pt;
+    }
+    
+    .locationname {
+        font-size: 14pt;
+        margin: 2px
+    }
+    
+    .descricao {
+        border-top: #969696 solid 1px;
+        padding: 10px;
+        font-size: 11pt;
+        margin: 5px;
+    }
+    
+    .button-facebook,
+    .button-instagram,
+    .button-twitter,
+    .button-whatsapp {
+        padding: 5px;
+        font-size: 30pt;
+    }
+    .button-facebook {
+        color: #3C5A99;
+    }
+    .button-instagram {
+      color: #893dc2;
+    }
+    .button-twitter {
+        color: #1DA1F2;
+    }
+    .button-whatsapp {
+        color: #4AC959;
+    }
+    
+    #rating-stars {
+        margin: 4px;
+    }
+    
+    #rating-stars .stars {
+        display: inline-flex;
+      }
+      #rarate-input {
+        pointer-events: none;
+      }
+      #rating-stars .rate-input {
+        position: absolute;
+        left: -9999px;
+      }
+      #rating-stars label {
+        cursor: pointer;
+        padding: 1px;
+        font-size: 10pt;
+      }
+      #rating-stars .star-icon {
+        color: orange;
+      }
+    
+      #rating-stars .rate-input:checked ~ .star-label .star-icon {
+        color: #999;
+      }
+      #rating-stars .stars:hover .star-label .star-icon {
+        color: orange;
+      }
+      #rating-stars .rate-input:hover ~ .star-label .star-icon {
+        color: #999;
+      }
+
+      .profession ,.locationname, .amens{
+          font-size: 12px !important;
+          color: white;
+          font-weight: bold;
+      }
+
+      .username{
+          font-size: 20px;
+          color: white;
+
+      }
+
+      .descricao a{
+          color: white;
+      }
+
+      .say-amen{
+          font-size: 20px;
+      }
+
+      .simple-step{
+        font-size: 22px;
+      }
+
+      ul li{
+          list-style: none;
+      }
+
+      .signup ,.login{
+          font-size: 15px;
+      }
+
+      .login-sign-div{
+        background: #34393e;
+        padding:10px;
+
+       }
+
+       .amen-div{
+           border-left: 1px solid gray;
+       }
+
+       .wwheadinga{
+        padding-top:20px ;
+        padding-bottom:20px !important ;
+       }
+/* ! cards end */
