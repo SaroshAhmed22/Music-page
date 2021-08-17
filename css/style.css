@@ -2927,3 +2927,57 @@ font-size: 26px;
   background-color: red;
   color: white !important;
 }
+
+
+
+/*! Promotion start */
+.promotion-para{
+
+  font-size: 15px;
+  text-align: justify;
+}
+
+
+.promo2-head{
+  font-size: 22px;
+}
+
+.promo-img-line{
+  position: absolute;
+  width: 85%;
+height: 100%;
+border: 10px solid white;
+margin-top: -33px;
+margin-left: 89px;
+
+}
+/*! Promotion end */
+
+/*! blog start */
+.blog{
+  padding: 25px;
+  background-color:#34393e;
+}
+/*! blog end */
+
+/* ! profile starrt */
+.profile-bt2{
+  background-color: red;
+}
+
+.profile-bt3{
+  background-color: #00a0b0;
+
+}
+.profile-bt4{
+  background-color: #ffba00;
+}
+
+
+.profile-cards-img-div{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+overflow: hidden;
+}
+/* ! profile end */
