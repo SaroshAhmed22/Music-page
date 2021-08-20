@@ -1,6 +1,64 @@
 /* for mobile screen */
 
 @media screen and (max-width: 600px) {
+/*! amen board start */
+#rating-stars label {
+  
+  font-size: 6pt !important;
+}
+
+.amens{
+  font-size: 11px !important;
+    margin-top: -2px;
+}
+.amen-mg{
+  margin-top: 47px;
+}
+.amen-div{
+  margin-top: 35px;
+}
+.descricao2{
+  padding-bottom: 32px !important;
+}
+
+.descricao3 {
+  padding-bottom: 56px !important;
+}
+/*! amen board end */
+
+/*! blast buy start */
+.blastby-mt{
+  margin-top: 43px;
+}
+
+/*! blast buy end */
+
+/*! event starrt */
+.event-head{
+  font-size: 15px !important;
+  margin-top: 18px;
+}
+/*! event end */
+
+.profile-cards{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-card-content{
+  margin-top: 21px;
+  text-align: center;
+  margin-left: 0px !important;
+}
+
+.profile-card-all-btns{
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
   footer .row .col-md-3{
     text-align: left !important;
   }

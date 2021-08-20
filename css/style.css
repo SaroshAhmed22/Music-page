@@ -2,6 +2,10 @@
 /* ! card 2*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.next-prev-div:hover {
+background-color: rgb(51, 104, 122);
+}
+
 
 .advertise-heading{
   padding-top: 85px;
@@ -39,7 +43,12 @@
 body{
   overflow-x: hidden !important;
   font-family: 'Poppins', sans-serif !important; 
+  
 }
+
+ .fl-p{
+   font-size: 17px;
+ }
 
 .featured-sectionn{
   padding: 100px 0px;
@@ -165,7 +174,7 @@ body{
   }
 }
 /*! animated featured card end */
-
+ 
 
 
 
@@ -174,8 +183,7 @@ body{
   top: 0 !important;
   left: 0 !important;
   z-index: 9999 !important;  */
-  width: 100vw;
-  overflow: hidden;
+  width:100vw ;
 
 }
 
@@ -489,6 +497,7 @@ color: white !important;
 
 }
 .search{
+  padding-bottom: 100px;
     background-color: black;
     /* height: 100vh; */
 }
@@ -758,7 +767,7 @@ font-size: 26px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 501px;
+      height: 601px !important;
       /* filter: brightness(.6);       */
  }
 
