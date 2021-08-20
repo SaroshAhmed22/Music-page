@@ -45,7 +45,7 @@
   <!--! top -->
   <header class="main-header ">
     <div class="header-wrapper">
-      <nav class=" navbar mynavbar  navbar-expand-lg  fixed-top ">
+      <nav class=" navbar mynavbar  navbar-expand-lg  fixed-top " id="nav-color-change">
 
         <div class=" container mt-4 ">
 
@@ -57,8 +57,7 @@
           <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#basicExampleNav"
             aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation"
             style="background-color: black;">
-            <i class=" fas fa-bars " style=" font-size: 25px ; "></i>
-
+            <i class=" fas fa-bars " style=" font-size: 25px ; " onclick="changenavbg()"></i>
           </button>
 
           <div class="collapse navbar-collapse ml-5  " id="basicExampleNav">
@@ -1241,6 +1240,15 @@
   <script src='https://use.fontawesome.com/8ae46bccf5.js'></script> -->
   <script src="js/Mainslider.js"></script>
   <!-- ! main slider js end -->
+
+  <script>
+    const changenavbg = () => {
+      let nav_color_change = document.getElementById("nav-color-change")
+
+      $('#nav_color_change').addClass('black');
+
+    }
+  </script>
 
 
 

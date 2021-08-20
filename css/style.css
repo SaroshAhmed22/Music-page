@@ -34,7 +34,9 @@ background-color: rgb(51, 104, 122);
  padding-bottom:85px !important ;
 }
 
-
+.black{
+  background-color: black !important;
+}
 /*! animated featured card start */
 .brand-imgs> img{
   background-color: #34393e;
